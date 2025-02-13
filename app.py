@@ -176,11 +176,7 @@ app.layout = dbc.Container([
                             }
                         ],
                         page_size=8,
-                        css=[{
-                            'selector': '.dash-cell div.dash-cell-value',
-                            'rule': 'display: inline; white-space: inherit; overflow: inherit; text-overflow: inherit;'
-                        }]
-                    )
+                        )
                 )
             ], className="content-card h-100 mb-4")
         ], width=12, lg=8),
