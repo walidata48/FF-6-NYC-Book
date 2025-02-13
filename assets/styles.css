@@ -1,0 +1,257 @@
+body {
+    background-color: #f8f9fa;
+    font-family: "Segoe UI", sans-serif;
+}
+
+.card {
+    border-radius: 10px;
+    border: none;
+}
+
+.card-header {
+    background-color: white;
+    border-bottom: 2px solid #f0f0f0;
+    border-radius: 10px 10px 0 0 !important;
+}
+
+.dash-dropdown {
+    border-radius: 5px;
+}
+
+
+.shadow-sm {
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+}
+
+.graph-container {
+    padding: 1rem;
+    background: white;
+    border-radius: 8px;
+}
+
+.author-dropdown-container {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+
+.date-dropdown-container {
+    background: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+.table-container {
+    background: white;
+    padding: 1rem;
+    border-radius: 8px;
+}
+
+.dashboard-container {
+    padding: 2rem;
+    background-color: #f8f9fd;
+    min-height: 100vh;
+}
+
+.dashboard-title {
+    color: #2d3fe7;
+    font-weight: 700;
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.dashboard-subtitle {
+    color: #6c757d;
+    font-size: 1.1rem;
+}
+
+/* Stats Cards */
+.stats-card {
+    background: white;
+    border: none;
+    border-radius: 20px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    transition: transform 0.2s;
+    height: 100%;
+}
+
+.stats-card:hover {
+    transform: translateY(-5px);
+}
+
+.stats-content {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+}
+
+.stats-icon-container {
+    background: #e8f0fe;
+    padding: 1rem;
+    border-radius: 16px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.stats-icon {
+    font-size: 1.5rem;
+    color: #2d3fe7;
+}
+
+.stats-title {
+    color: #8f95b2;
+    font-size: 0.9rem;
+    margin-bottom: 0.3rem;
+    font-weight: 500;
+}
+
+.stats-value {
+    color: #2d3fe7;
+    font-size: 2rem;
+    font-weight: 700;
+    margin: 0;
+    line-height: 1;
+}
+
+.stats-subtitle {
+    color: #8f95b2;
+    font-size: 0.85rem;
+    margin: 0.5rem 0 0 0;
+}
+
+.content-card {
+    background: white;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+}
+
+.content-card .card-header {
+    background: white;
+    border-bottom: 1px solid #f0f0f0;
+    padding: 1.5rem;
+    border-radius: 20px 20px 0 0;
+}
+
+.section-title {
+    color: #2d3fe7;
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin: 0;
+    display: flex;
+    align-items: center;
+}
+
+/* Publisher Cards */
+.publisher-card {
+    background: white;
+    border: none;
+    border-radius: 16px;
+    padding: 1.25rem;
+    transition: all 0.2s;
+    box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+}
+
+.publisher-card:hover {
+    transform: translateX(5px);
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.publisher-card-content {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.publisher-icon {
+    width: 45px;
+    height: 45px;
+    border-radius: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-size: 1.2rem;
+}
+
+.publisher-name {
+    font-size: 1rem;
+    font-weight: 600;
+    margin: 0;
+    color: #2d3fe7;
+}
+
+.publisher-stats {
+    font-size: 0.9rem;
+    color: #8f95b2;
+    margin: 0.3rem 0 0 0;
+}
+
+.date-dropdown {
+    width: 200px;
+}
+
+.dash-table-container {
+    font-family: 'Inter', sans-serif;
+}
+
+.dash-spreadsheet-container .dash-spreadsheet-inner td {
+    font-family: 'Inter', sans-serif !important;
+}
+
+
+.summary-button {
+    height: 38px;
+    border-radius: 0.375rem;
+}
+
+.summary-header {
+    font-size: 1.1rem;
+    font-weight: 600;
+    color: #495057;
+}
+
+.summary-container {
+    background-color: #f8f9fa;
+    border: 1px solid #e9ecef;
+    border-radius: 0.5rem;
+    min-height: 200px;
+}
+
+.summary-text {
+    line-height: 1.6;
+}
+
+.book-title {
+    color: #2c3e50;
+    font-weight: 600;
+}
+
+.summary-content {
+    font-size: 1.05rem;
+    line-height: 1.7;
+    color: #495057;
+}
+
+.form-label {
+    color: #495057;
+    font-weight: 500;
+}
+
+.summary-button:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: all 0.2s ease;
+}
+
+.summary-container {
+    transition: all 0.3s ease;
+}
+
