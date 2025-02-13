@@ -11,7 +11,7 @@ body {
 .card-header {
     background-color: white;
     border-bottom: 2px solid #f0f0f0;
-    border-radius: 10px 10px 0 0 !important;
+    border-radius: 10px 10px 0 0;
 }
 
 .dash-dropdown {
@@ -20,7 +20,7 @@ body {
 
 
 .shadow-sm {
-    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)!important;
+    box-shadow: 0 .125rem .25rem rgba(0,0,0,.075);
 }
 
 .graph-container {
@@ -203,7 +203,7 @@ body {
 }
 
 .dash-spreadsheet-container .dash-spreadsheet-inner td {
-    font-family: 'Inter', sans-serif !important;
+    font-family: 'Inter', sans-serif;
 }
 
 
